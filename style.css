@@ -1,0 +1,75 @@
+html {
+  background-image: url("https://i.ibb.co/Q6wdZgx/New-Project-5.png");
+}
+
+h1 {
+  font-family: "germania-one";
+  font-weight: 400;
+  font-size: 7vw;
+  text-align: center;
+  text-shadow: 0 0 2vw #00000022;
+}
+
+h2 {
+  font-family: "harman-sans";
+  font-weight: 400;
+  font-size: 3.5vw;
+  text-align: center;
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+  text-shadow: 0 0 2vw #00000033;
+}
+
+h3 {
+  font-family: "quatro-slab";
+  font-weight: 400;
+  font-size: 1.8vw;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "quatro-slab";
+  font-weight: 400;
+  font-size: 1vw;
+  margin-top: 0.5vw;
+}
+
+.credits {
+  margin: 0;
+  font-size: 0.6vw;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8vw;
+  margin-bottom: 5vw;
+  margin-top: 0;
+}
+
+.card {
+  background-color: #e6b04e;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 1vw;
+  padding-left: 1.8vw;
+  padding-right: 1.8vw;
+  border: 0.2vw solid #573a19;
+  box-shadow: 0 0 3vw 0px #00000033;
+  transition: border 0.1s ease;
+}
+
+img {
+  width: 100%;
+  height: 56.5%;
+  border-radius: 0.5vw;
+  object-fit: cover;
+  box-shadow: 0 0 3vw 0px #00000033;
+}
+
+.no-eng {
+  margin-top: 2vh;
+  height: 65%;
+}
